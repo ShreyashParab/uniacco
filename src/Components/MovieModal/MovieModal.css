@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-content{
+    background-color: #343a40;
+    color: white; 
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.poster{
+    width: 200px;
+}
+
+.poster img{
+    width: 100%;
+    text-align: center;
+}
+
+.overview{
+    text-align: justify;
+}
